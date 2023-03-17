@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *  * main - code to output a message as described
- *   * Return: Always 0
- *    */
+ * main - code to output a message as described
+ * Return: Always 0
+ */
 
 int main(void)
 {
