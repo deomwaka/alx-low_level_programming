@@ -1,35 +1,40 @@
 #include <stdio.h>
+
 /**
- * main - entry point
- * Description: print fizzbuzz if i is divisible by multiple of 3 and 5
- * print fizz if divisible by 3
- * print buzz if divisible by 5
- * Return: 0
+ * main - Fizz Buzz code
+ *
+ * Return: void
  */
 
 int main(void)
 {
-	int i;
+	int i = 1;
 
-	for (i = 1; i <= 100; i++)
+	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%i", i);
 		}
+		if (i != 100)
+		{
+			putchar(' ');
+		}
+
+		i++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
