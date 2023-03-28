@@ -11,7 +11,8 @@ int main(void)
 
     srand(time(NULL)); /* seed the random number generator with the current time */
 
-    for (int i = 0; i < PASSWORD_LENGTH; i++)
+    int i;
+    for (i = 0; i < PASSWORD_LENGTH; i++)
     {
         int index = rand() % sizeof(charset); /* generate a random index into the charset */
         password[i] = charset[index];
