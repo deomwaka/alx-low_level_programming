@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * factorial - return factorial of a number
  * @n: - integer to be checked
