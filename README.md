@@ -1,1 +1,1 @@
-This repository is about low level programing
+This project is about Low Level Programming
