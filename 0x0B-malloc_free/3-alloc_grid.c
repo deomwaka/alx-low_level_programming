@@ -2,13 +2,12 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - a function that returns a pointer to a 2-D array of
- *               integers with each element of grid initalized to 0
- * @width: width of the 2-D array
- * @height: height of the 2-D array
+ * alloc_grid - returns a pointer to a 2-D array
+ * @width: width input
+ * @height: height input
  *
- * Return: If width <= 0 or height <= 0 or negative - NULL.
- *         Else - a pointer to the 2-D array of integers.
+ * Return: if both width and height <= 0 return NULL
+ *         else a pointer to 2 dimensional array
  */
 
 int **alloc_grid(int width, int height)
