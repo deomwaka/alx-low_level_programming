@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _abs - Entry point
+ * _abs - prints the absolute value of an interger
  * @n: n is an integer
- * Description: prints the absolute value of an integer
+ * 
  * Return: int
  */
 
