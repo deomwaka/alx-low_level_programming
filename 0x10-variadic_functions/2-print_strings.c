@@ -9,7 +9,7 @@
  * ...: variable number of strings printed
  *
  * Return: if separator is NULL, nothing is printed
- * if one of the strings is NULL, nil is printed
+ * if one of the strings is NULL, nil is printed.
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
