@@ -1,7 +1,6 @@
 ; Declare needed C functions
 	extern printf		;the C function to be called
 
-
 	section .data		;data section, initialized variable
 msg: db "Hello, Holberton", 0	;C string needs 0
 fmt: db "%s", 10, 0		;the printf format, "\n",'0'
